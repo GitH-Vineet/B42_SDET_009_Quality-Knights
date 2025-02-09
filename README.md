@@ -16,7 +16,7 @@ https://docs.google.com/document/d/1igTUDmYXKurZ1TDSZTrdz42Jd3INcatrfHw09oMhLEQ/
 Testing Type  
 Features to be Tested 
 ## RECOMMENDATIONS & SUGGESTIONS
-• Below is the List of improvements needed for the Brawlers Web
+• Below is the List of improvements needed for the Tool Shop Web
 Application:  
 ➢Needs an improvement in the Login button and in the Sign-Up button.  
 ➢Needs an improvement in the Alignment of the Navbar Section.  
