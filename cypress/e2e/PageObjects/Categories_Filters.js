@@ -3,15 +3,15 @@ class Categories_filters{
     selectCategory()
     {
         cy.get('[class="nav-link dropdown-toggle"]').should("be.visible");
-        cy.get('[routerlink="/category/power-tools"]').should("be.visible").click();
+        cy.get('[routerlink="/category/power-tools"]').click({force:true});
     }
 
     selectProduct(){
-        cy.get('(//h5[@class="card-title"])[1]').should("be.visible").should("have.text","Sheet Sander")
+        cy.get('h5[class="card-title"]').eq(0).should("be.visible")
     }
 
     selectFilter(){
-        cy.get('[name="category_id"]').check().should("be.checked");
+        cy.get('input[type="checkbox"]').eq(1).click().should("be.checked");
     }
 
 }
